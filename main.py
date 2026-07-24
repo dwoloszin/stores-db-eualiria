@@ -53,6 +53,7 @@ _EAN_ENRICHERS: Dict[str, List[str]] = {
     "farmaconde": [sys.executable, "-m", "markets.farmaconde.enrich_ean_farmaconde"],
     "ultrafarma":[sys.executable, "-m", "markets.ultrafarma.enrich_ean_ultrafarma"],
     "panvel":    [sys.executable, "-m", "markets.panvel.enrich_ean_panvel"],
+    "eualiria":  [sys.executable, "-m", "markets.eualiria.enrich_ean_eualiria"],
 }
 
 
